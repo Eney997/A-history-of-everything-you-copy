@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.mother {
+    display: grid;
+    place-items: center;
+}
+.bodyvav {
+    filter:opacity(0.1);
+}
+.headerc {
+    margin-top:-300px;
+}
+.headerbox {
+    display: grid;
+    place-items: center;
+}
+.classh1 {
+    margin-top: 30px;
+    width: 311px;
+    color: #4C545C;
+    text-align: center;
+    font-family: Bai Jamjuree SemiBold;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.522px;
+}
+.classh2 {
+    margin-top: 16px;
+    width: 311px;
+    color: #9EABB2;
+    text-align: center;
+    font-family: Bai Jamjuree;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.12px;
+}
+.iosbut {
+    cursor: pointer;
+    border: none;
+    margin-top: 48px;
+    width: 311px;
+    height: 56px;
+    border-radius: 28px;
+    background: #26BBA4;
+    box-shadow: 0px 10px 20px 0px rgba(137, 229, 199, 0.50), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+}
+.dwloadbt {
+    cursor: pointer;
+    border: none;
+    margin-top: 24px;
+    width: 311px;
+    height: 56px;
+    border-radius: 28px;
+    background: #6174FF;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.10), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+}
+.butin {
+    position: relative;
+    margin-left: 50px;
+    width: 212px;
+    color: #FFF;
+    text-align: center;
+    font-family: Bai Jamjuree SemiBold;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 166.667% */
+    letter-spacing: 0.5px;
+}
+.dwldin {
+    position: relative;
+    margin-left: 50px;
+    width: 221px;
+    color: #FFF;
+    text-align: center;
+    font-family: Bai Jamjuree SemiBold;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 166.667% */
+    letter-spacing: 0.5px;
+}
+.applepcbox {
+    display: grid;
+    place-items: center;
+}
+.abh3 {
+    margin-top: 160px;
+    width: 311px;
+    color: #4C545C;
+    text-align: center;
+    font-family: Bai Jamjuree SemiBold;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.457px;
+}
+.abh4 {
+    margin-top: 16px;
+    width: 311px;
+    color: #9EABB2;
+    text-align: center;
+    font-family: Bai Jamjuree;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.12px;
+}
+.applepcmob {
+    z-index: 0;
+    position: relative;
+    margin-top:65px ;
+
+}
+.applepcvawes {
+    z-index: 1;
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 10px;
+}
+.applepcwhiteyes {
+    z-index: 2;
+    position: absolute;
+    margin-top: -205px;
+    margin-left: 50px;
+}
+.appledown1 {
+    margin-top: 56px;
+}
+.appledown2 {
+    margin-top: 48px;
+}
+.appledown3 {
+    margin-top: 48px;
+}
+.saerto1 {
+    width: 311px;
+    color: #4C545C;
+    text-align: center;
+    font-family: Bai Jamjuree SemiBold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.391px;
+}
+.saerto2 {
+    width: 311px;
+    color: #9EABB2;
+    text-align: center;
+    font-family: Bai Jamjuree;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.12px;
+}
+.tabletbox {
+    display: grid;
+    place-items: center;
+    margin-top: 186px;
+}
+.tbh3 {
+    width: 311px;
+    color: #4C545C;
+    text-align: center;
+    font-family: Bai Jamjuree SemiBold;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.457px;
+}
+.tbh4 {
+    margin-top: 16px;
+    width: 311px;
+    color: #9EABB2;
+    text-align: center;
+    font-family: Bai Jamjuree;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.12px;
+}
+.tabletblackback {
+    z-index: 0;
+    position: relative;
+    margin-top: 64px;
+}
+.tabletvaves {
+    position: absolute;
+    z-index: 1;
+    margin-top: -179px;
+    margin-left: 20px;
+}
+.tabletwhiteyes {
+    position: absolute;
+    z-index: 2;
+    margin-left: 80px;
+    margin-top: -135px;
+}
+.tabletdot {
+    position: absolute;
+    z-index: 4;
+    margin-left: 255px;
+    margin-top: -97px;
+}
+.mobileavawyve {
+    display: grid;
+    place-items: center;
+}
+.mobblckback {
+    z-index: 5;
+    position: relative;
+    margin-left: -200px;
+    margin-top: -170px;
+}
+.mobilefrontvaves {
+    position: absolute;
+    z-index: 6;
+    margin-left: -166px;
+    margin-top: -240px;
+    
+}
+.mobwhy {
+    position: absolute;
+    margin-left: -171px;
+    margin-top: -210px;
+    z-index: 8;
+}
+.mobdot4mob {
+    position: absolute;
+    margin-left: -136px;
+    margin-top: -110px;
+    z-index: 9;
+}
+.supercharge {
+    display: grid;
+    place-items: center;
+}
+.sch1 {
+    margin-top: 130px;
+}
+.sch1-1 {
+    width: 311px;
+    color: #4C545C;
+    text-align: center;
+    font-family: Bai Jamjuree SemiBold;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.457px;
+}
+.sch1-2 {
+    margin-top: 11px;
+    width: 311px;
+    color: #9EABB2;
+    text-align: center;
+    font-family: Bai Jamjuree;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.12px;
+}
+.sch2 {
+    margin-top: 90px;
+    display: grid;
+    place-items: center;
+}
+.sch2-1 {
+    margin-top: 40px;
+    width: 311px;
+    color: #4C545C;
+    text-align: center;
+    font-family: Bai Jamjuree SemiBold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.391px;
+}
+.sch2-2 {
+    margin-top: 18px;
+    width: 311px;
+    color: #9EABB2;
+    text-align: center;
+    font-family: Bai Jamjuree;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.12px;
+}
+.sch3 {
+    margin-top: 56px;
+    display: grid;
+    place-items: center;
+}
+.sch3-1 {
+    margin-top: 44px;
+    width: 311px;
+    color: #4C545C;
+    text-align: center;
+    font-family: Bai Jamjuree SemiBold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.391px;
+}
+.sch3-2 {
+    margin-top: 18px;
+    width: 311px;
+    color: #9EABB2;
+    text-align: center;
+    font-family: Bai Jamjuree;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.12px;
+}
+.sch4 {
+    margin-top: 56px;
+    display: grid;
+    place-items: center;
+}
+.sch4-1 {
+    margin-top: 44px;
+    width: 311px;
+    color: #4C545C;
+    text-align: center;
+    font-family: Bai Jamjuree SemiBold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.391px;
+}
+.sch4-2 {
+    margin-top: 18px;
+    width: 311px;
+    color: #9EABB2;
+    text-align: center;
+    font-family: Bai Jamjuree;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.12px;
+}
+.otxifotosdiv {
+    margin-top: 132px;
+    display: grid;
+    place-items: center;
+    row-gap: 57px;
+}
+.clipboard {
+    margin-top: 170px;
+    display: grid;
+    place-items: center;
+}
+.cliph1 {
+    width: 311px;
+    color: #4C545C;
+    text-align: center;
+    font-family: Bai Jamjuree SemiBold;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.457px;
+}
+.cliph2 {
+    margin-top: 16px;
+    width: 311px;
+    color: #9EABB2;
+    text-align: center;
+    font-family: Bai Jamjuree;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.12px;
+}
+.clipbut1 {
+    margin-top: 46px;
+    border: none;
+    cursor: pointer;
+    width: 311px;
+    height: 56px;
+    border-radius: 28px;
+    background: #26BBA4;
+    box-shadow: 0px 10px 20px 0px rgba(137, 229, 199, 0.50), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+}
+.clipbutin {
+    margin-left: 45px;
+    width: 212px;
+    color: #FFF;
+    text-align: center;
+    font-family: Bai Jamjuree SemiBold;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 166.667% */
+    letter-spacing: 0.5px;
+}
+.clipbut2 {
+    margin-top: 24px;
+    border: none;
+    cursor: pointer;
+    width: 311px;
+    height: 56px;
+    border-radius: 28px;
+    background: #6174FF;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.10), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+}
+.clipbut2in {
+    margin-left: 45px;
+    width: 221px;
+    color: #FFF;
+    text-align: center;
+    font-family: Bai Jamjuree SemiBold;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 166.667% */
+    letter-spacing: 0.5px;
+}
+footer {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 500px;
+    background: #f0f1f3;
+    margin-top: 170px;
+}
+footer h1 {
+    cursor: pointer;
+    border: none;
+    width: 160px;
+    color: #4C545C;
+    text-align: center;
+    font-family: Bai Jamjuree;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    letter-spacing: 0.135px;
+}
+.footerc {
+    margin-top: 40px;
+}
+footer h1:hover {
+    color:#26BBA4;
+}
+.socials {
+    margin-bottom: 53px;
+    display: grid;
+    place-items: center;
+    grid-template-areas: "pirveli meore mesame";
+    column-gap: 40px;
+}
+#fb {
+    cursor: pointer;
+    font-size: 25px;
+}
+#tw {
+    cursor: pointer;
+    font-size: 25px;
+}
+#ig {
+    cursor: pointer;
+    font-size: 25px;
+}
+#fb:hover {
+    color: blue;
+}
+#tw:hover {
+    color: #26BBA4;
+}
+#ig:hover {
+    color: purple;
+}
+
+
