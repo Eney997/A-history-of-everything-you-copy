@@ -1,3 +1,350 @@
 @media(width>1440px) {
+    body {
+    background-image: url(/assets/desktop/bodybackdesk.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    }
+    .headerbox {
+        grid-template-areas:"erti erti "
+                            "ori ori"
+                            "sami otxi ";
+    }
+    #classh1 {
+        grid-area: erti;
+        width: 730px;
+        font-size: 46px;
+    }
+    #classh2 {
+        grid-area: ori;
+        width: 730px;
+        font-size: 20px;
+    }
+    #iosbut {
+        grid-area: sami;
+    }
+    #dwloadbt {
 
+        margin-top: 45px;
+        grid-area: otxi;
+    }
+    #abh3 {
+        grid-area: pirveli;
+        width: 730px;
+        font-size: 36px;
+    }
+    #abh4 {
+        grid-area: meore;
+        width: 730px;
+        font-size: 18px;
+    }
+    .applepcbox {
+        grid-template-areas:"pirveli pirveli"
+                            "meore meore"
+                            "mesame meotxe"
+                            "mesame mexute"
+                            "mesame meeqvse";  
+                                                 
+    }
+    .applepcavawyve {
+        grid-area: mesame;
+        display: grid;
+        margin-top: 80px;
+        margin-left: -376px;
+    }
+    .applepcmob {
+       width: 0px;
+    }
+    .applepcvawes {
+        width: 0px;
+    }
+    .applepcwhiteyes {
+       width: 0px;
+    }
+    .abitem1 {
+        width: 712px;
+        height: 572px;
+        background-repeat: no-repeat;
+        background-image: url(/assets/desktop/Apple\ pc\ for\ desk.svg);
+    }
+    .abitem2 {
+        margin-top: -542px;
+        width: 693px;
+        height: 925.943px;
+        background-repeat: no-repeat;
+        background-image: url(/assets/desktop/apple\ vavaes\ for\ desk.svg);
+    }
+    .abitem3 {
+        margin-top: -820px;
+        margin-left: 170px;
+        width: 286px;
+        height: 162px;
+        background-repeat: no-repeat;
+        background-image: url(/assets/desktop/apple\ white\ front.svg);
+    }
+    #abitem4 {
+        display: block;
+        margin-top: -770px;
+        margin-left: 292px;
+    }
+    .appledown1 {
+        grid-area: meotxe;
+    }
+    .appledown2 {
+        grid-area: mexute;
+    }
+    .appledown3 {
+        grid-area: meeqvse;
+    }
+    #saerto1 {
+        width: 350px;
+    }
+    #saerto2 {
+        width: 350px;
+    }
+    #appledown1 {
+        position: relative;
+        margin-left: 100px;
+        margin-top: -40px;
+    }
+    #appledown2 {
+        margin-left: 100px;
+        margin-top: -400px;
+    }
+    #appledown3 {
+        margin-left: 100px;
+        margin-top: -700px;
+    }
+    #tabletbox {
+        margin-top: -150px;
+    }
+    #tbh3 {
+        width: 730px;
+        font-size: 36px;
+    }
+    #tbh4 {
+        width: 730px;
+        font-size: 18px;
+    }
+    .tabletblackback {
+        width: 0px;
+    }
+    .tabletvaves {
+        width: 0px;
+    }
+    .tabletwhiteyes {
+        width: 0px;
+    }
+    .tabletdot {
+        width: 0px;
+    }
+    .tabletback {
+        margin-top: 111px;
+        width: 706.845px;
+        height: 471.23px;
+        background-image: url(/assets/desktop/tablet\ back\ black\ 4\ desk.svg);
+    }
+    .tabvaves {
+        margin-top: -455px;
+        margin-left: 50px;
+        width: 604px;
+        height: 888.776px;
+        background-repeat: no-repeat;
+        background-image: url(/assets/desktop/tablet\ front\ vaves.svg);
+    }
+    .tabwhyes {
+        margin-top: -750px;
+        margin-left: 250px;
+        width: 100%;
+        height: 176px;
+        background-repeat: no-repeat;
+        background-image: url(/assets/desktop/tablet\ front\ white\ yes\ desk.svg);
+    }
+    .tabdot {
+        margin-left: 650px;
+        margin-top: -70px;
+        background-repeat: no-repeat;
+        width: 7.54px;
+        height: 7.54px;
+        background-image: url(/assets/desktop/tablet\ dot\ 4\ desk.svg);
+    }
+    .mobblckback {
+        width: 0px;
+    }
+    .mobilefrontvaves{
+        width: 0px;
+    }
+    .mobwhy {
+        width: 0px;
+    }
+    .mobdot4mob {
+        width: 0px;
+    }
+    .mobback {
+        margin-left: -80px;
+        margin-top: -201px;
+        width:1000%;
+        height: 403.805px;
+        background-repeat: no-repeat;
+        background-image: url(/assets/desktop/mobile\ back\ black.svg);
+    }
+    .mobfrntvaves {
+        margin-left: -350px;
+        margin-top: -390px;
+        width: 430.234px;
+        height: 323.385px;
+        background-repeat: no-repeat;
+        background-image: url(/assets/desktop/mobile\ vavaes.svg);
+    }
+    .mobwhiteyes {
+        margin-left: 50px;
+        margin-top: -400px;
+        width: 1000%;
+        height: 132px;
+        background-image: url(/assets/desktop/mobile\ inside\ yes.svg);
+        background-repeat: no-repeat;
+    }
+    .mobdt {
+        margin-left: -540px;
+        margin-top: -35px;
+        width: 100%;
+        height: 24.036px;
+        background-repeat: no-repeat;
+        background-image: url(/assets/desktop/mobile\ dot\ 4\ desk.svg);
+    }
+    .supercharge {
+        grid-template-areas: "first first first "
+                             "second third fourth";
+                             column-gap: 60px;
+    }
+    .sch1 {
+        width: 350px;
+        grid-area: first;
+    }
+    .sch2 {
+        
+        width: 350px;
+        grid-area: second;
+    }
+    .sch3 {
+        width: 350px;
+        grid-area: third;
+    }
+    .sch4 {
+        width: 350px;
+        grid-area: fourth;
+    }
+    #sch2 {
+        margin-top: 85px;
+    }
+    .googlesvg {
+        width: 0px;
+    }
+    .ibmsvg {
+        width: 0px;
+    }
+    .micsvg {
+        width: 0px;
+    }
+    .entsvg {
+        width: 0px;
+    }
+    .vectorsvg {
+        width: 0px;
+    }
+    .xutifotosdiv {
+        grid-template-areas: 'erti ori sami otxi xuti';
+        gap: 120px;
+    }
+    .item1 {
+        margin-top: 10px;
+        grid-area: erti;
+        width: 165px;
+        height: 49px;
+        background-image: url(/assets/desktop/Google\ svg\ for\ desk.svg);
+    }
+    .item2 {
+        margin-top: 30px;
+        grid-area: ori;
+        width: 140px;
+        height: 100px;
+        background-repeat: no-repeat;
+        background-image: url(/assets/desktop/IBM\ svg\ for\ desk.svg);
+    }
+    .item3 {
+        margin-top: 45px;
+        grid-area: sami;
+        width: 180px;
+        height: 100px;
+        background-repeat: no-repeat;
+        background-image: url(/assets/desktop/microsoft\ svg\ 4\ desk.svg);
+    }
+    .item4 {
+        grid-area: otxi;
+        width:140px ;
+        height: 70px;
+        background-repeat: no-repeat;
+        background-image: url(/assets/desktop/enterprice\ svg\ 4\ desk.svg);
+    }
+    .item5 {
+        margin-top: 50px;
+        grid-area: xuti;
+        width: 165px;
+        height: 100px;
+        background-repeat: no-repeat;
+        background-image: url(/assets/desktop/Vector\ svh\ 4\ desk.svg);
+    }
+    .clipboard {
+        grid-template-areas:'one one'
+                            'two two'
+                            'thre four';
+    }
+    #cliph1 {
+        grid-area: one;
+        width: 730px;
+        font-size: 36px;
+    }
+    #cliph2 {
+        grid-area: two;
+        width: 730px;
+        font-size: 18px;
+    }
+    #clipbut1 {
+        grid-area: thre;
+    }
+    #clipbut2 {
+        margin-top: 43px;
+        grid-area: four;
+    }
+    #footer {
+        width: 100%;
+        height: 150px;
+        grid-template-areas: 'fc f1 f3 f5 f6'
+        'fc f2 f4 f5 f6';
+    }
+    .footerc {
+        margin-top: 
+        grid-area: fc;
+    }
+    .f1 {
+        grid-area: f1;
+    }
+    .f2 {
+        grid-area: f2;
+        margin-bottom: 50px;
+    }
+    .f3 {
+        grid-area: f3;
+    }
+    .f4 {
+        grid-area: f4;
+        margin-bottom: 50px;
+    }
+    .f5 {
+        grid-area: f5;
+        margin-top: -80px;
+    }
+    .socials {
+        grid-area: f6;
+        margin-top: 25px;
+    }
 }
