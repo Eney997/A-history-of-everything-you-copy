@@ -55,6 +55,9 @@ body {
     background: #26BBA4;
     box-shadow: 0px 10px 20px 0px rgba(137, 229, 199, 0.50), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
 }
+.iosbut:hover {
+    background: black;
+}
 .dwloadbt {
     cursor: pointer;
     border: none;
@@ -64,6 +67,9 @@ body {
     border-radius: 28px;
     background: #6174FF;
     box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.10), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+}
+.dwloadbt:hover{
+    background: black;
 }
 .butin {
     position: relative;
@@ -412,6 +418,9 @@ body {
     background: #26BBA4;
     box-shadow: 0px 10px 20px 0px rgba(137, 229, 199, 0.50), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
 }
+.clipbut1:hover {
+    background: black;
+}
 .clipbutin {
     margin-left: 45px;
     width: 212px;
@@ -433,6 +442,9 @@ body {
     border-radius: 28px;
     background: #6174FF;
     box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.10), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+}
+.clipbut2:hover {
+    background: black;
 }
 .clipbut2in {
     margin-left: 45px;
