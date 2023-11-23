@@ -3,7 +3,7 @@
     background-image: url(/assets/desktop/bodybackdesk.svg);
     background-repeat: no-repeat;
     background-size: 100%;
-    
+    background-color: black;
     }
     .headerbox {
         grid-template-areas:"erti erti "
